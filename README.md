@@ -33,9 +33,8 @@ The Initial Developer of the Original Code is neolao (neolao@gmail.com).
 - Add the Audio field to your Template in Setup > Templates.
 
 - Add the following code to the template file
-
-_ to get the title list: $modules->Audio_MP3->player['title'];
-_ to get the player: $modules->Audio_MP3->player['code'];
+- to get the title list: $modules->Audio_MP3->player['title'];
+- to get the player: $modules->Audio_MP3->player['code'];
 
 - create a page using the Template
 
@@ -68,3 +67,5 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
+
+Copyright 2013 by Christoph Thelen
