@@ -1,9 +1,9 @@
 Audio_MP3
 =========
 
- This module integrates a highly configurable Flash MP3 player in your pages.
+This module integrates a highly configurable Flash MP3 player in your pages.
  
- ## Third party Code
+## Third party Code
 This modules uses two Versions of the free flash-mp3-player
 
 more information
