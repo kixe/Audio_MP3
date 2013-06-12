@@ -25,7 +25,7 @@ The Initial Developer of the Original Code is neolao (neolao@gmail.com).
 
 ## How to install
 
-- Download from github, unzip, copy all files in a folder /Audio_MP3/ and add the folder to your /site/modules/ directory. 
+- Download from github the module and the two swf Files, unzip, copy all files in a folder /Audio_MP3/ and add the folder to your /site/modules/ directory. 
 
 - Click *check for new modules* in ProcessWire Admin Modules screen. Click *install* for the module labeled: "Audio_MP3".
 
