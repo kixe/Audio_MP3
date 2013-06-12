@@ -36,8 +36,6 @@ class Audio_MP3 extends Process implements ConfigurableModule {
 			'summary' => 'Creates a Field to store MP3-Audiofiles and generates a Frontend-Player which is extensively configurable in the Module settings.',
 			'author' => 'Christoph Thelen',
 			//'href' => 'http://modules.processwire.com/modules/audio_mp3/'
-			//'singular' => true, 
-			//'autoload' => true, 
 			);
 	}
 
