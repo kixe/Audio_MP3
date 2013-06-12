@@ -52,20 +52,20 @@ If you want an alternative title, you can put it in the Description-field of the
 
 ## Module Configuration
 
-width  Forces the video width.
-height 	Forces the video height. //only Maxi-Player only one file stored
-volume 	The initial volume, between 0 and 200. By default set to 50
-showstop 	1 to show the STOP button.
-showinfo 	1 to show the INFO button.
-showvolume 	1 to show the VOLUME button.
-showloading	('alway','never','autohide') to show the LOADING bar// By default set to 'alway'
-showinfo 	1 to show the INFO button.
-buttonwidth 	The buttons width. By default set to 30.
-volumewidth 	The width of the VOLUME button. By default set to 30.
-volumeheight 	The height of the VOLUME button. By default set to 10
-loadingcolor 	The color of loading bar in hex format without #//default: ffff75
-sliderovercolor Hover color of the bar in hex format without #
-buttonovercolor Hover color of buttons in hex format without #
+- width  Forces the video width.
+- height 	Forces the video height. //only Maxi-Player only one file stored
+- volume 	The initial volume, between 0 and 200. By default set to 50
+- showstop 	1 to show the STOP button.
+- showinfo 	1 to show the INFO button.
+- showvolume 	1 to show the VOLUME button.
+- showloading	('alway','never','autohide') to show the LOADING bar// By default set to 'alway'
+- showinfo 	1 to show the INFO button.
+- buttonwidth 	The buttons width. By default set to 30.
+- volumewidth 	The width of the VOLUME button. By default set to 30.
+- volumeheight 	The height of the VOLUME button. By default set to 10
+- loadingcolor 	The color of loading bar in hex format without #//default: ffff75
+- sliderovercolor Hover color of the bar in hex format without #
+- buttonovercolor Hover color of buttons in hex format without #
 
 feel free to add more configuration options to the module. More information here:
 http://flash-mp3-player.net/players/multi/documentation/
