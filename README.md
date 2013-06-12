@@ -6,13 +6,13 @@ This module integrates a highly configurable Flash MP3 player in your pages.
 ## Third party Code
 This modules uses two Versions of the free flash-mp3-player
 
-more information
+#more information
 http://flash-mp3-player.net/players/
 
-code
+#code
 https://github.com/neolao/mp3-player
 
-license
+#license
 http://creativecommons.org/licenses/by-sa/3.0/deed.en
 
 The Initial Developer of the Original Code is neolao (neolao@gmail.com).
@@ -33,10 +33,10 @@ The Initial Developer of the Original Code is neolao (neolao@gmail.com).
 
 - Add the following code to the template file
 
-to get the title list
+-- to get the title list
 $modules->Audio_MP3->player['title'];
 
-to get the player
+-- to get the player
 $modules->Audio_MP3->player['code'];
 
 - create a page using the Template
@@ -67,7 +67,6 @@ If you want an alternative title, you can put it in the Description-field of the
 - sliderovercolor Hover color of the bar in hex format without #
 - buttonovercolor Hover color of buttons in hex format without #
 
-feel free to add more configuration options to the module. More information here:
+### feel free to add more configuration options to the module. More information here:
 http://flash-mp3-player.net/players/multi/documentation/
 http://flash-mp3-player.net/players/maxi/documentation/
-
