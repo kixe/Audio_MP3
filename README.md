@@ -6,6 +6,10 @@ This module integrates a highly configurable Flash MP3 player in your pages.
 ## Third party Code
 This modules uses two Versions of the free flash-mp3-player
 
+#### download
+https://github.com/neolao/mp3-player/blob/master/template_maxi/player_mp3_maxi.swf
+https://github.com/neolao/mp3-player/blob/master/template_multi/player_mp3_multi.swf
+
 #### more information
 http://flash-mp3-player.net/players/
 
