@@ -179,7 +179,11 @@ class Audio_MP3 extends Process implements ConfigurableModule {
 
 	protected function render() {
 		
-		$audio_files = $this->page->audio;
+		if ($this->page->audio) {
+			$audio_files = $this->page->audio;
+		} else {
+			return;
+		}
 		
 		#playlist string-prefix
 		$playlist = "mp3=";
