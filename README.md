@@ -10,6 +10,11 @@ This modules uses two Versions of the free flash-mp3-player
 - https://github.com/neolao/mp3-player/blob/master/template_maxi/player_mp3_maxi.swf
 - https://github.com/neolao/mp3-player/blob/master/template_multi/player_mp3_multi.swf
 
+or
+
+- http://flash-mp3-player.net/medias/player_mp3_maxi.swf
+- http://flash-mp3-player.net/medias/player_mp3_multi.swf
+
 #### more information
 http://flash-mp3-player.net/players/
 
@@ -37,12 +42,14 @@ The Initial Developer of the Original Code is neolao (neolao@gmail.com).
 - Add the Audio field to your Template in Setup > Templates.
 
 - Add the following code to the template file
-- to get the title list: $modules->Audio_MP3->player['title'];
-- to get the player: $modules->Audio_MP3->player['code'];
+- to get the title list: $page->player['title'];
+- to get the player: $page->player['code'];
 
 - create a page using the Template
 
-- drag and drop mp3 or mp3.zip files in the audio field in the Page-Edit-Area
+- drag and drop mp3 or mp3.zip files in the audio field in the Page-Edit-Area.
+- If you like put an alternative title in the Description-field after the file upload. Default title is the name of the file.
+
 
 
 ## How it works
@@ -59,7 +66,6 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 - showinfo: 1 to show the INFO button.
 - showvolume: 1 to show the VOLUME button.
 - showloading: 'alway','never','autohide') to show the LOADING bar// By default set to 'alway'
-- showinfo: 1 to show the INFO button.
 - buttonwidth: The buttons width. By default set to 30.
 - volumewidth: The width of the VOLUME button. By default set to 30.
 - volumeheight: The height of the VOLUME button. By default set to 10
