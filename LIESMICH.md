@@ -10,6 +10,11 @@ Dieses Modul nutzt zwei Versionen des kostenlosen Flash-MP3-Player
 - https://github.com/neolao/mp3-player/blob/master/template_maxi/player_mp3_maxi.swf
 - https://github.com/neolao/mp3-player/blob/master/template_multi/player_mp3_multi.swf
 
+oder
+
+- http://flash-mp3-player.net/medias/player_mp3_maxi.swf
+- http://flash-mp3-player.net/medias/player_mp3_multi.swf
+
 #### Weitere Informationen
 http://flash-mp3-player.net/players/
 
@@ -37,13 +42,13 @@ Der Entwickler des Original Code ist neolao (neolao@gmail.com).
 - Fügen Sie einem Template das nun verfügbare Audio Feld hinzu. (Setup > Templates).
 
 - Fügen Sie den folgenden Code in die Template-Datei:
-- Um die Titelliste auszugeben: $modules-> Audio_MP3-> player ['title'];
-- Um den Player auszugeben: $ modules-> Audio_MP3-> player ['code'];
+- Um die Titelliste auszugeben: $page->player['title'];
+- Um den Player auszugeben: $page->player['code'];
 
 - Erstellen Sie eine Seite mit dem Template.
 
 - Ziehen Sie oder mp3 mp3.zip Dateien in das Audio-Feld (Page > Edit)
-
+- Ein alternative Titel können Sie im Feld 'Description' eintragen, welches nach dem Dateiupload erscheint. Standardtitel ist der Dateiname.
 
 ## Funktion
 
