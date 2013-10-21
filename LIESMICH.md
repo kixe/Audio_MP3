@@ -71,10 +71,27 @@ Wenn Sie nur eine mp3 Datei gespeichert haben wird der Maxi-Player geladen. Bei 
 - sliderovercolor: Farbe des Reglers beim Überfahren mit der Maus im Hex-Format ohne #
 - buttonovercolor: Farbe von Schaltern beim Überfahren mit der Maus in Hex-Format ohne #
 
+#### hinzugefügt in Version 1.0.2
+- buttoncolor: Color of Controls
+- slidercolor1: Start Color (start-color)
+- slidercolor2: End Color (gradient)
+- playlistcolor: Backgroundcolor of the playlist visiblele in  Multiplayer only (2 and more files)
+- currentmp3color: visible in  Multiplayer only (2 and more files)
 
 #### Fügen Sie weitere Konfigurationsoptionen zum Modul hinzu. Mehr Informationen hier:
 
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
 
-Copyright 2013 um Christoph Thelen
+## Änderungen
+* 14.06.13 Error Meldungen zur Installationsroutine hinzugefügt
+* 15.06.13 *hook* hinzugefügt *$page*
+* 20.06.13 Bestätigungsnachricht für Deinstallationsroutine hinzugefügt
+* 25.09.13 Konfigurationsoptionen hinzugefügt (Multiplayer)
+* 09.10.13 *Multisite* Unterstützung ergänzt (Pfad zum swf-player/ site-folder)
+* 14.10.13 Alle Phrasen sind jetzt übersetzbar
+* 14.10.13 Übersetzung nach Deutsch verfügbar
+* 21.10.13 Eingabe der Farbwerte vereinfacht. Erlaubt sind Werte mit oder ohne führendem '#', 3- or 6-stellige Hexadezimalangaben, sowie Farbnamen wie *red*, *limegreen* oder *maroon*. Bei fehlerhafter Eingabe erfolgt ein *Fallback* zur Standardkonfiguration.
+* 21.10.13 für eine bessere Zugänglichkeit: alternative Verweise zu den mp3-Dateien in den object-tag eingefügt.
+
+Copyright 2013 by Christoph Thelen
