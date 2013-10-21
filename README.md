@@ -73,9 +73,27 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 - sliderovercolor: Hover color of the bar in hex format without #
 - buttonovercolor: Hover color of buttons in hex format without #
 
+#### added in 1.0.2
+- buttoncolor: Color of Controls
+- slidercolor1: Start Color (start-color)
+- slidercolor2: End Color (gradient)
+- playlistcolor: Backgroundcolor of the playlist visiblele in  Multiplayer only (2 and more files)
+- currentmp3color: visible in  Multiplayer only (2 and more files)
+
 #### feel free to add more configuration options to the module. More information here:
 
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
+
+## changelog
+* 14.06.13 add error messages to the install routine
+* 15.06.13 hook added to $page
+* 20.06.13 message added to the uninstall routine
+* 25.09.13 some configuration-options added (multiplayer)
+* 09.10.13 multisite support (path to swf-player/ site-folder)
+* 14.10.13 all phrases translatable
+* 14.10.13 translation for german available
+* 21.10.13 simplified color setting, allowed input now: with/without leading '#', 3 or 6 digit hex-code, Colornames allowed
+* 21.10.13 for better accessibility: alternative links directly to the mp3-files included
 
 Copyright 2013 by Christoph Thelen
