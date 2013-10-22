@@ -56,18 +56,21 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 - buttonwidth: The buttons width. By default set to 30.
 - volumewidth: The width of the VOLUME button. By default set to 30.
 - volumeheight: The height of the VOLUME button. By default set to 10
-- loadingcolor: The color of loading bar in hex format without #//default: ffff75
-- sliderovercolor: Hover color of the bar in hex format without #
-- buttonovercolor: Hover color of buttons in hex format without #
+- loadingcolor: The color of loading bar
+- sliderovercolor: Hover color of the bar
+- buttonovercolor: Hover color of buttons
+
 #### added in 1.0.2
 - buttoncolor: Color of Controls
 - slidercolor1: Start Color (start-color)
 - slidercolor2: End Color (gradient)
 - playlistcolor: Backgroundcolor of the playlist visible in  Multiplayer only (2 and more files)
 - currentmp3color: visible in  Multiplayer only (2 and more files)
+
 #### more informations about configuration options here:
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
+
 ## changelog
 * 14.06.13 add error messages to the install routine
 * 15.06.13 hook added to $page
