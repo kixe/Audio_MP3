@@ -77,10 +77,10 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 - buttoncolor: Color of Controls
 - slidercolor1: Start Color (start-color)
 - slidercolor2: End Color (gradient)
-- playlistcolor: Backgroundcolor of the playlist visiblele in  Multiplayer only (2 and more files)
+- playlistcolor: Backgroundcolor of the playlist visible in  Multiplayer only (2 and more files)
 - currentmp3color: visible in  Multiplayer only (2 and more files)
 
-#### feel free to add more configuration options to the module. More information here:
+#### more informations about configuration options here:
 
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
