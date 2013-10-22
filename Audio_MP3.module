@@ -233,8 +233,8 @@ class Audio_MP3 extends Process implements ConfigurableModule {
 		$f->attr('size', 20); 
 		$f->attr('maxlength', 21);
 		$f->attr('placeholder', 'color');
-		$f->label = __('Playlist Color'); 
-		$f->description = __('Color for the Playlist, displayed in Multiplayer only (2 or more titles). Use Color Names or hexadecimal color specification'); 
+		$f->label = __('Playlist Backgroundolor'); 
+		$f->description = __('Backgroundcolor of the Playlist, displayed in Multiplayer only (2 or more titles). Use Color Names or hexadecimal color specification'); 
 		$inputfields->add($f); 
 
 		$f = wire('modules')->get('InputfieldText'); 
