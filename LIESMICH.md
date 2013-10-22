@@ -72,13 +72,13 @@ Wenn Sie nur eine mp3 Datei gespeichert haben wird der Maxi-Player geladen. Bei 
 - buttonovercolor: Farbe von Schaltern beim Überfahren mit der Maus in Hex-Format ohne #
 
 #### hinzugefügt in Version 1.0.2
-- buttoncolor: Color of Controls
-- slidercolor1: Start Color (start-color)
-- slidercolor2: End Color (gradient)
-- playlistcolor: Backgroundcolor of the playlist visiblele in  Multiplayer only (2 and more files)
-- currentmp3color: visible in  Multiplayer only (2 and more files)
+- buttoncolor: Farbe der Bedienungstasten
+- slidercolor1: Farbe des Schiebereglers (Farbverlauf Startfarbe Oben) 
+- slidercolor2: Farbe des Schiebereglers (Farbverlauf Endfarbe Unten)
+- playlistcolor: Hintergrundfarbe der Titelliste. Nur im Multiplayer sichtbar (2 oder mehr Dateien)
+- currentmp3color: Farbe des Titles, der aktuell abgespielt wird. Nur im Multiplayer sichtbar (2 oder mehr Dateien)
 
-#### Fügen Sie weitere Konfigurationsoptionen zum Modul hinzu. Mehr Informationen hier:
+#### Informationen zu den Konfigurationsoptionen:
 
 - http://flash-mp3-player.net/players/multi/documentation/
 - http://flash-mp3-player.net/players/maxi/documentation/
