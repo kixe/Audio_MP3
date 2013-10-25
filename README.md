@@ -82,5 +82,6 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 * 14.10.13 translation for german available
 * 21.10.13 simplified color setting, allowed input now: with/without leading '#', 3 or 6 digit hex-code, Colornames allowed
 * 21.10.13 for better accessibility: alternative links directly to the mp3-files included
+* 25.10.13 accesibility: headline added to Titlelist in alternative Content
 
 Copyright 2013 by Christoph Thelen
