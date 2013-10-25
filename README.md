@@ -22,7 +22,7 @@ https://github.com/neolao/mp3-player/
 http://creativecommons.org/licenses/by-sa/3.0/deed.en  
 http://www.mozilla.org/MPL/
 #### author
-The Initial Developer of the Original Code is neolao https://github.com/neolao
+neolao https://github.com/neolao
 
 
 ## How to install
