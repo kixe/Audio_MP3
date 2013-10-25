@@ -18,8 +18,9 @@ or
 http://flash-mp3-player.net/players/
 #### code
 https://github.com/neolao/mp3-player/
-#### license
+#### licenses
 http://creativecommons.org/licenses/by-sa/3.0/deed.en
+http://www.mozilla.org/MPL/
 #### author
 The Initial Developer of the Original Code is neolao (neolao@gmail.com).
 
