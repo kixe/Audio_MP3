@@ -81,6 +81,6 @@ Wenn Sie nur eine mp3 Datei gespeichert haben wird der Maxi-Player geladen. Bei 
 * 14.10.13 Übersetzung nach Deutsch verfügbar
 * 21.10.13 Eingabe der Farbwerte vereinfacht. Erlaubt sind Werte mit oder ohne führendem '#', 3- or 6-stellige Hexadezimalangaben, sowie Farbnamen wie *red*, *limegreen* oder *maroon*. Bei fehlerhafter Eingabe erfolgt ein *Fallback* zur Standardkonfiguration.
 * 21.10.13 für eine bessere Zugänglichkeit: alternative Verweise zu den mp3-Dateien in den object-tag eingefügt.
-* 25.10.13 Zugänglichkeit verbessert Überschrift zur Liste
+* 25.10.13 Zugänglichkeit: Überschrift zur Titelliste hinzugefügt
 
 Copyright 2013 by Christoph Thelen
