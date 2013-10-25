@@ -20,7 +20,7 @@ http://flash-mp3-player.net/players/
 #### Code
 https://github.com/neolao/mp3-player
 #### Lizenz
-http://creativecommons.org/licenses/by-sa/3.0/deed.en  
+http://creativecommons.org/licenses/by-sa/3.0/deed.de   
 http://www.mozilla.org/MPL/
 #### author
 neolao https://github.com/neolao
