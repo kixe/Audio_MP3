@@ -319,6 +319,7 @@ class Audio_MP3 extends Process implements ConfigurableModule {
  		$path = $this->fuel('config')->urls->$this;
  		$embedCode = "\n
   		<object title=\"".__('Audio MP3 Player | internal links to mp3-files included')."\" id=\"mp3_player\" type=\"application/x-shockwave-flash\" data=\"".$path."player_mp3_$playersize.swf\"  width=\"$width\" height=\"$height\">
+  		    <h2>".__('List of Audio Files')."</h2>
   		    <ul>
 				$alt_player</ul>
  		   	<param name=\"movie\" value=\"".$path."player_mp3_$playersize.swf\" />
