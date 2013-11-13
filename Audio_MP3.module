@@ -305,7 +305,7 @@ class Audio_MP3 extends Process implements ConfigurableModule {
 			$titles[$key] = ($value->description)?$value->description:$value;
 			$this->data['height'] += 15;
 			#accesibility code
-			$alt_player .= "<li><a title=\"$title_lang | {$titles[$key]}\" href=\"{$value->url}\">{$titles[$key]}</a></li>\n\t\t\t\t";
+			$alt_player .= "\t<li><a title=\"$title_lang | {$titles[$key]}\" href=\"{$value->url}\">{$titles[$key]}</a></li>\n\t\t\t";
 		}
 	 
  		#playlist string-prefix
