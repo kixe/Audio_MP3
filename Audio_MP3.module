@@ -31,6 +31,7 @@
  * 21.10.13 simplified color setting, allowed input now: with/without leading '#', 3 or 6 digit hex-code, Colornames allowed
  * 21.10.13 for better accessibility: alternative links directly to the mp3-files included
  * 25.10.13 accesibility: headline added to titlelist in alternative content
+ * 13.10.13 bug fixed: Validation Error w3c: place <param> before flow content(h2,ul etc.) in <object>
  */
 
 class Audio_MP3 extends Process implements ConfigurableModule {
@@ -319,14 +320,14 @@ class Audio_MP3 extends Process implements ConfigurableModule {
   		
  		$path = $this->fuel('config')->urls->$this;
  		$embedCode = "\n
-  		<object title=\"".__('Audio MP3 Player | internal links to mp3-files included')."\" id=\"mp3_player\" type=\"application/x-shockwave-flash\" data=\"".$path."player_mp3_$playersize.swf\"  width=\"$width\" height=\"$height\">
-  		    <h2>".__('List of Audio Files')."</h2>
-  		    <ul>
-				$alt_player</ul>
+ 		<object title=\"".__('Audio MP3 Player | internal links to mp3-files included')."\" id=\"mp3_player\" type=\"application/x-shockwave-flash\" data=\"".$path."player_mp3_$playersize.swf\"  width=\"$width\" height=\"$height\">
  		   	<param name=\"movie\" value=\"".$path."player_mp3_$playersize.swf\" />
     		<param name=\"wmode\" value= \"transparent\"/>
 			<param name=\"FlashVars\" value=\"$playlist$string&amp;title=$titles\" />
-		</object>";
+ 		    <h2>".__('List of Audio Files')."</h2>
+  		    <ul>
+			$alt_player</ul>
+ 		</object>";
 	
 		$event->return = array('code'=>$embedCode, 'title'=>$titles);
 
