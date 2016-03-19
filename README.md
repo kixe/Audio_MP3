@@ -84,5 +84,6 @@ If you store just one File in the Page-Edit-Area the Maxi-Player will be loaded.
 * 21.10.13 for better accessibility: alternative links directly to the mp3-files included
 * 25.10.13 accesibility: headline added to titlelist in alternative content
 * 13.11.13 bug fixed: Validation Error w3c: place <param> before flow content(h2,ul etc.) in <object>
+* 19.03.16 tested in PW 3.0.9, small debugging, better uninstall process preventing ugly error messages
 
 Copyright 2013 by Christoph Thelen

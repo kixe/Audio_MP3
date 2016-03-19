@@ -17,13 +17,16 @@ oder
 
 #### Weitere Informationen
 http://flash-mp3-player.net/players/
+
 #### Code
 https://github.com/neolao/mp3-player
-#### Lizenzen
-http://creativecommons.org/licenses/by-sa/3.0/deed.de   
-http://www.mozilla.org/MPL/
-#### author
-neolao https://github.com/neolao
+
+#### Lizenz
+http://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+#### Autor
+Der Entwickler des Original Code ist neolao (neolao@gmail.com).
+
 
 ## Installation
 - Laden Sie das Modul und die beiden SWF-Dateien herunter, entpacken und kopieren Sie alle Dateien in einem Ordner mit dem Namen /Audio_MP3/ und fügen Sie den Ordner Ihrem /site/modules/ Verzeichnis hinzu.
@@ -81,6 +84,6 @@ Wenn Sie nur eine mp3 Datei gespeichert haben wird der Maxi-Player geladen. Bei 
 * 14.10.13 Übersetzung nach Deutsch verfügbar
 * 21.10.13 Eingabe der Farbwerte vereinfacht. Erlaubt sind Werte mit oder ohne führendem '#', 3- or 6-stellige Hexadezimalangaben, sowie Farbnamen wie *red*, *limegreen* oder *maroon*. Bei fehlerhafter Eingabe erfolgt ein *Fallback* zur Standardkonfiguration.
 * 21.10.13 für eine bessere Zugänglichkeit: alternative Verweise zu den mp3-Dateien in den object-tag eingefügt.
-* 25.10.13 Zugänglichkeit: Überschrift zur Titelliste hinzugefügt
+* 19.03.16 v120 in PW 3.0.9 getestet, kleiner Fehler behoben, Deinstallationsprozess verbessert
 
 Copyright 2013 by Christoph Thelen
